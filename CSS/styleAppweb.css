@@ -359,7 +359,7 @@ canvas {
   width: 50%;
   height: 50%;
   background: #000;
-  position: top;
-  margin-bottom: 1000px;
-  margin-left: 300px;
+  position: absolute;
+  margin-left: 300px
+  
 }
