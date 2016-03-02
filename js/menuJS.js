@@ -143,8 +143,6 @@ else {
 //menue
 var theToggle = document.getElementById('toggle');
 
-// based on Todd Motto functions
-// http://toddmotto.com/labs/reusable-js/
 
 // hasClass
 function hasClass(elem, className) {
