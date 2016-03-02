@@ -356,8 +356,10 @@ li a {
 /* Animation cercle                                                                    */
 /*********************************************************************************/
 canvas {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background: #000;
-  position: absolute;
+  position: top;
+  margin-bottom: 1000px;
+  margin-left: 300px;
 }

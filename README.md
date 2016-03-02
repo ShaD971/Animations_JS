@@ -4,5 +4,5 @@ petite projet javascript
 ### Screenshot
 
 <p align="center">
-  <img src="../images/screenshots1.png" alt="Screenshot"/>
+  <img src="https://github.com/ShaD971/Projet_JS/blob/master/images/screenshots1.png" alt="Screenshot"/>
 </p>
