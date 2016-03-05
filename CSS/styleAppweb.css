@@ -5,7 +5,16 @@
 body
 {
     background-image: url("../images/fond2.jpeg");
-    color:white;
+    color:skyblue;
+}
+
+  /*********************************************************************************/
+/* APPWEB                                                                         */
+/*********************************************************************************/
+#appweb
+{
+    text-align: center;
+    font-family: Impact, "Comic Sans MS", Arial, Verdana, sans-serif;
 }
 	/*********************************************************************************/
 /* Menu                                                                          */
@@ -18,7 +27,7 @@ body
     padding: 15px;
     border-radius: 3px;
     box-sizing: content-box;
-    margin-left: 450px;
+    margin-left: 400px;
    
 }
 #menu2
@@ -74,8 +83,9 @@ body
 	#container {
     width: 400px;
     height: 400px;
-    position: relative;
+    position: absolute;
     background: black;
+   
 }
 #animate {
     width: 50px;
@@ -91,7 +101,7 @@ body
 } 
 
 	/*********************************************************************************/
-/*  animation couleur                                                                        */
+/*  animation block deplacement                                                                       */
 /*********************************************************************************/
 
 
@@ -163,11 +173,14 @@ body
 }
 
 #p1 {
-    margin-top: 100px;
+    margin-top: -150px;
     text-align: center;
 }
 
-/*animation bloc*/
+  /*********************************************************************************/
+/* animation bloc                                                                    */
+/*********************************************************************************/
+
 .draggableBox {
 
   
@@ -193,6 +206,7 @@ body
         padding: 5em 0em;
         bottom: 5em 0em;
         border-top: 1px solid rgba(255,255,255,0.05);
+        margin-top: 200px;
     }
     
     #copyright p
@@ -360,5 +374,6 @@ canvas {
   height: 50%;
   background: #000;
   position: absolute;
-  margin-left: 300px;
+  margin-left: 400px;
+  margin-top: -200px;
 }

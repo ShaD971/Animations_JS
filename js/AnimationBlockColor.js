@@ -19,3 +19,4 @@ function deplacer(dx, dy)
     carre.style.backgroundColor = "#1ec5e5";
 }
 
+
