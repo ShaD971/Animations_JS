@@ -101,7 +101,7 @@ body
     position: absolute;
     background: blue;
 } 
-#B1{
+#B1{/*fonctionne pas */
     top: 100px;
     left: 650px;
 }
