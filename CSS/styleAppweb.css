@@ -21,7 +21,7 @@ body
 /*********************************************************************************/
 #menu
 {
-    /*You can decorate the menu's container, such as adding background images through this block*/
+    
     background-color: #222;
     height: 38px;
     padding: 15px;
@@ -33,7 +33,7 @@ body
 #menu2
 {
 
-   margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+   margin:0 auto;
 }
 #menu2 ul 
 { 
@@ -66,7 +66,7 @@ body
     box-sizing: content-box;
     height:30px;
     padding-top: 8px;
-    margin: 0 20px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    margin: 0 20px;
     color: #fff;
     font: normal 12px arial;
     text-align: center;
@@ -77,7 +77,7 @@ body
     z-index: 2;
 }
 	/*********************************************************************************/
-/* carré animation jaune                                                                        */
+/* Carré animation jaune                                                                        */
 /*********************************************************************************/
 	
 	#container {
@@ -85,6 +85,8 @@ body
     height: 400px;
     position: absolute;
     background: black;
+    top: 200px;
+    left: 650px;
    
 }
 #animate {
@@ -99,9 +101,13 @@ body
     position: absolute;
     background: blue;
 } 
+#B1{
+    top: 100px;
+    left: 650px;
+}
 
 	/*********************************************************************************/
-/*  animation block deplacement                                                                       */
+/*Animation block deplacement                                                                       */
 /*********************************************************************************/
 
 
@@ -164,7 +170,6 @@ body
     height: 100%;
     text-align: center; /* Pour centrer l'image que l'overlay contiendra */
 
-    /* Ci-dessous, nous appliquons un background de couleur noire et d'opacité 0.6. Il s'agit d'une propriété CSS3. */
     background-color: rgba(0,0,0,0.6);
 }
 
@@ -178,7 +183,7 @@ body
 }
 
   /*********************************************************************************/
-/* animation bloc                                                                    */
+/* Animation bloc                                                                    */
 /*********************************************************************************/
 
 .draggableBox {
@@ -192,6 +197,8 @@ body
     background-color: teal;
     color: #CCC;
     cursor: move;
+    left: 700px;
+    top: 200px;
 
 
 }
