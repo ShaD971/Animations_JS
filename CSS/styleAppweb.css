@@ -187,8 +187,6 @@ body
 /*********************************************************************************/
 
 .draggableBox {
-
-  
     position: absolute;
     width: 80px; height: 60px;
     padding-top: 10px;
@@ -199,8 +197,6 @@ body
     cursor: move;
     left: 700px;
     top: 200px;
-
-
 }
 
 /*********************************************************************************/
@@ -263,7 +259,7 @@ body
       overflow: hidden;
       position: relative;
       left: 600px;
-      top: -100px;
+      top: -170px;
     }
     .fond{
       margin-bottom:-5px; 
